@@ -1,0 +1,30 @@
+body {
+  background-color: gray;
+}
+
+.navbar-brand {
+    font-family: 'Amatic SC', cursive;
+    
+  
+  }
+
+  .nav-link {
+    font-family: 'Amatic SC', cursive;
+  }
+
+  .card-title {
+    font-family: 'Dancing Script', cursive;
+  }
+.product-page {
+  padding-top: 5rem;
+  
+}
+.container {
+  width: 100%;
+}
+  .product-card {
+    width: 18rem;
+   margin-left: 2rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-color: rgb(147, 147, 228);
+  }
