@@ -35,12 +35,12 @@ import product32 from "../Images/product32.jpg";
 
 function Product() {
     return(
-        <div className="container bg-secondary">
+        <div className="container" style={{backgroundColor: 'rgb(147,147,268)'}}>
             <div className="product-page row justify-content-center align-items-center ">
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                     <img src={product01} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">$14.00</h5>
+                        <h5 className="card-title">$9.00</h5>
                         <a href="#" className="btn btn-primary">Buy Now</a>
                     </div>
                 </div>
