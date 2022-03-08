@@ -3,8 +3,9 @@ import product03 from "../Images/product03.jpg";
 
 function Product03() {
     return(
-    <div className="card mb-3 prod-card mx-auto" style={{maxWidth: '90%',
-    height: 'auto', backgroundColor: 'rgb(147,147,268)'}}>
+        <div style={{backgroundColor: "gray", height: '100vh'}}>
+            <div className="card mb-3 prod-card mx-auto" style={{maxWidth: '75%',
+            height: 'auto', backgroundColor: 'rgb(147,147,268)'}}>
         <div className="row g-0 justify-content-center align-items-center">
             <div className="col-md-4 pl-2">
                 <img src={product03}className="img-fluid rounded-start " alt="..."/>
@@ -18,6 +19,7 @@ function Product03() {
                 </div>
             </div>
         </div>
+    </div>
     </div>
     )
 }

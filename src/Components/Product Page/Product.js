@@ -31,6 +31,7 @@ import product29 from "../Images/product29.jpg";
 import product30 from "../Images/product30.jpg";
 import product31 from "../Images/product31.jpg";
 import product32 from "../Images/product32.jpg";
+import { Link } from "react-router-dom";
 
 
 function Product() {
@@ -41,28 +42,28 @@ function Product() {
                     <img src={product01} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$9.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod1" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                     <img src={product02} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$14.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod2" href="#" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                     <img src={product03} clasName="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$9.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod3" href="#" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                     <img src={product04} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$9.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod4" href="#" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
             </div>
@@ -71,28 +72,28 @@ function Product() {
                     <img src={product05} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$12.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod5" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                     <img src={product06} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$23.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod6" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                     <img src={product07} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$30.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod7" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                     <img src={product08} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$8.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod8" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
             </div>
@@ -101,28 +102,28 @@ function Product() {
                     <img src={product09} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$20.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod9" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                     <img src={product10} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$8.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod10" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                     <img src={product11} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$30.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod11" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                     <img src={product12} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$8.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod12" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
             </div>
@@ -131,28 +132,28 @@ function Product() {
                     <img src={product13} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$30.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod13" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                     <img src={product15} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$22.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod15" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                     <img src={product16} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$7.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod16" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                     <img src={product17} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$7.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod17" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
             </div>
@@ -161,28 +162,28 @@ function Product() {
                     <img src={product18} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$7.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod18" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                     <img src={product19} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$7.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod19" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                     <img src={product20} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$12.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod20" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                     <img src={product21} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$7.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod21" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
             </div>
@@ -191,28 +192,28 @@ function Product() {
                     <img src={product22} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$8.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod22" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                     <img src={product23} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$11.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod23" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                     <img src={product24} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$11.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod24" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                     <img src={product25} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$19.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod25"className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
             </div>
@@ -221,28 +222,28 @@ function Product() {
                     <img src={product26} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$12.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod26" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                     <img src={product27} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$10.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod27" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                    <img src={product28} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$14.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod28" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                     <img src={product29} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$13.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod29" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
             </div>
@@ -251,21 +252,21 @@ function Product() {
                     <img src={product30} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$14.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod30" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                     <img src={product31} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$15.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod31" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-2" >
                     <img src={product32} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$8.00</h5>
-                        <a href="#" className="btn btn-primary">Buy Now</a>
+                        <Link to="/prod32" className="btn btn-primary">Buy Now</Link>
                     </div>
                 </div>
             </div>
