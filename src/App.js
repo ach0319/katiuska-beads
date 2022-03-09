@@ -35,6 +35,17 @@ import Product29 from "./Components/ProductCom/Product28";
 import Product30 from "./Components/ProductCom/Product29";
 import Product31 from "./Components/ProductCom/Product30";
 import Product32 from "./Components/ProductCom/Product31";
+import Product33 from "./Components/ProductCom/Product32";
+import Product34 from "./Components/ProductCom/Product33";
+import Product35 from "./Components/ProductCom/Product34";
+import Product36 from "./Components/ProductCom/Product35";
+import Product38 from "./Components/ProductCom/Product36";
+import Product39 from "./Components/ProductCom/Product37";
+import Product40 from "./Components/ProductCom/Product38";
+import Product41 from "./Components/ProductCom/Product39";
+import Product42 from "./Components/ProductCom/Product40";
+import Product43 from "./Components/ProductCom/Product41";
+import Product44 from "./Components/ProductCom/Product42";
 
 
 
@@ -79,6 +90,17 @@ function App() {
                     <Route path="/prod30" element={<Product30/>} />
                     <Route path="/prod31" element={<Product31/>} />
                     <Route path="/prod32" element={<Product32/>} />
+                    <Route path="/prod33" element={<Product33/>} />
+                    <Route path="/prod34" element={<Product34/>} />
+                    <Route path="/prod35" element={<Product35/>} />
+                    <Route path="/prod36" element={<Product36/>} />
+                    <Route path="/prod38" element={<Product38/>} />
+                    <Route path="/prod39" element={<Product39/>} />
+                    <Route path="/prod40" element={<Product40/>} />
+                    <Route path="/prod41" element={<Product41/>} />
+                    <Route path="/prod42" element={<Product42/>} />
+                    <Route path="/prod43" element={<Product43/>} />
+                    <Route path="/prod44" element={<Product44/>} />
                 </Routes>
             </div>
         </Router>
