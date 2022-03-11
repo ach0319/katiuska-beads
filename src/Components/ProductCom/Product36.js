@@ -17,6 +17,13 @@ function Product38() {
                     <p className="card-text fs-3 text-center"><small class="text-black">Size: 18 1/2 INCHES</small></p>
                     <h5 className="card-price fs-1 text-center">$15.00</h5>
                 </div>
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick"/>
+                    <input type="hidden" name="hosted_button_id" value="Q2YYYXYNB2C96"/>
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+                </form>
+
             </div>
         </div>
     </div>

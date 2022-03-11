@@ -35,7 +35,8 @@ Enjoy and hope to hear from you soon.<br></br>
                     <a href="https://instagram.com/katiuskabeads?utm_medium=copy_link" class="card-link fs-1 text-primary"><FontAwesomeIcon icon={faInstagram} /></a>
                     
                 </div>
-</div>
+            </div>
+<div class="elfsight-app-258fb984-0953-4a40-9898-27fd943f8d1e"></div>
     
         </div>
     )
