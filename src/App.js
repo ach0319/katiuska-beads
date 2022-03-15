@@ -46,6 +46,11 @@ import Product41 from "./Components/ProductCom/Product39";
 import Product42 from "./Components/ProductCom/Product40";
 import Product43 from "./Components/ProductCom/Product41";
 import Product44 from "./Components/ProductCom/Product42";
+import Product45 from "./Components/ProductCom/Product43";
+import Product46 from "./Components/ProductCom/Product44";
+import Product47 from "./Components/ProductCom/Product45";
+import Product48 from "./Components/ProductCom/Product46";
+import Product49 from "./Components/ProductCom/Product47";
 
 
 
@@ -101,6 +106,11 @@ function App() {
                     <Route path="/prod42" element={<Product42/>} />
                     <Route path="/prod43" element={<Product43/>} />
                     <Route path="/prod44" element={<Product44/>} />
+                    <Route path="/prod45" element={<Product45/>} />
+                    <Route path="/prod46" element={<Product46/>} />
+                    <Route path="/prod47" element={<Product47/>} />
+                    <Route path="/prod48" element={<Product48/>} />
+                    <Route path="/prod49" element={<Product49/>} />
                 </Routes>
             </div>
         </Router>

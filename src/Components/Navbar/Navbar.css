@@ -36,3 +36,16 @@ body {
   form {
     text-align: center;
   }
+
+  table {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .house {
+    display: block;
+    position: absolute;
+    left: 95%;
+    top: 2%;
+    
+  }
