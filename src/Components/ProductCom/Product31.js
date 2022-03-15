@@ -1,11 +1,17 @@
 import React from "react";
 import product32 from "../Images/product32.jpg";
+import {Link} from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faHouse} from  "@fortawesome/free-solid-svg-icons"
 
 function Product32() {
     return(
         <div style={{backgroundColor: "gray", height: '100vh'}}>
             <div className="card mb-3 prod-card mx-auto" style={{maxWidth: '75%',
             height: 'auto', backgroundColor: 'rgb(147,147,268)'}}>
+                <div className="back-forward-button">
+                    <Link to="/" className="btn house text-secondary border-secondary rounded"><FontAwesomeIcon icon={faHouse} /></Link>
+                </div>
         <div className="row g-0 justify-content-center align-items-center">
             <div className="col-md-4 pl-2">
                 <img src={product32}className="img-fluid rounded-start " alt="..."/>
