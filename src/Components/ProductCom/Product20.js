@@ -6,7 +6,7 @@ import {faHouse} from  "@fortawesome/free-solid-svg-icons"
 
 function Product21() {
     return(
-        <div style={{backgroundColor: "gray", height: '100vh'}}>
+        <div style={{backgroundColor: "gray", height: '90vh'}}>
             <div className="card mb-3 prod-card mx-auto" style={{maxWidth: '75%',
             height: 'auto', backgroundColor: 'rgb(147,147,268)'}}>
                 <div className="back-forward-button">
@@ -18,10 +18,10 @@ function Product21() {
             </div>
             <div className="col-md-8 " >
                 <div className="card-body text-white">
-                    <h5 className="card-title fs-1 text-center">MUCR Bracelet</h5>
-                    <p className="card-text fs-3 text-center">Description: MULTICOLOR CRYSTAL BEADS WITH HANGING CRUCIFIX PENDANT</p>
-                    <p className="card-text fs-3 text-center"><small class="text-black">Size: 6 INCHES</small></p>
-                    <h5 className="card-price fs-1 text-center">$7.00</h5>
+                    <h5 className="card-title fs-4 text-center">MUCR Bracelet</h5>
+                    <p className="card-text fs-5 text-center">Description: MULTICOLOR CRYSTAL BEADS WITH HANGING CRUCIFIX PENDANT</p>
+                    <p className="card-text fs-5 text-center"><small class="text-black">Size: 6 INCHES</small></p>
+                    <h5 className="card-price fs-4 text-center">$7.00</h5>
                 </div>
                 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                     <input type="hidden" name="cmd" value="_s-xclick"/>

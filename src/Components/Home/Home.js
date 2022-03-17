@@ -54,363 +54,363 @@ import { Link } from "react-router-dom";
 function Home () {
     return (
         <div style={{backgroundColor: 'rgb(147,147,268)'}}>
-            <div class="card bg-dark text-white border-0">
+            <div class="card bg-dark text-white border-0 w-100">
                 <img class="card-img" src={banner} alt="flowers and jewlery on dresser"/>
                 <div class="card-img-overlay d-flex flex-column justify-content-center">
-                    <h5 class="card-title display-1 text-center">Find your signature peice</h5>
+                    <h5 class="card-title display-1 text-center">Find your signature piece</h5>
                 </div>
             </div>
             <div className="container" style={{backgroundColor: 'rgb(147,147,268)'}}>
-            <div className="product-page row justify-content-center align-items-center ">
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+            <div className="product-page row justify-content-center align-items-center no-gutters w-100">
+                <div className="card product-card h-100 text-center p-4 col-sm-4 mb-5" >
                     <img src={product01} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">$9.00</h5>
-                        <Link to="/prod1" className="btn btn-primary">Buy Now</Link>
+                        <h5 className="card-title price ">$9.00</h5>
+                        <Link to="/prod1" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card  h-100 text-center p-4 col-sm-4 mb-5" >
                     <img src={product02} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">$14.00</h5>
-                        <Link to="/prod2" href="#" className="btn btn-primary">Buy Now</Link>
+                        <h5 className="card-title price">$14.00</h5>
+                        <Link to="/prod2" href="#" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card  h-100 text-center p-4 col-sm-4 mb-5" >
                     <img src={product03} clasName="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">$9.00</h5>
-                        <Link to="/prod3" href="#" className="btn btn-primary">Buy Now</Link>
+                        <h5 className="card-title price">$9.00</h5>
+                        <Link to="/prod3" href="#" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card  h-100 text-center p-4 col-sm-4 mb-5" >
                     <img src={product04} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">$9.00</h5>
-                        <Link to="/prod4" href="#" className="btn btn-primary">Buy Now</Link>
+                        <h5 className="card-title price">$9.00</h5>
+                        <Link to="/prod4" href="#" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
             </div>
-            <div className="row justify-content-center align-items-center mt-5">
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+            <div className="row justify-content-center align-items-center w-100 ">
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product05} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">$12.00</h5>
-                        <Link to="/prod5" className="btn btn-primary">Buy Now</Link>
+                        <h5 className="card-title price">$12.00</h5>
+                        <Link to="/prod5" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product06} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">$23.00</h5>
-                        <Link to="/prod6" className="btn btn-primary">Buy Now</Link>
+                        <h5 className="card-title price">$23.00</h5>
+                        <Link to="/prod6" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product07} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">$30.00</h5>
-                        <Link to="/prod7" className="btn btn-primary">Buy Now</Link>
+                        <h5 className="card-title price">$30.00</h5>
+                        <Link to="/prod7" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product08} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">$8.00</h5>
-                        <Link to="/prod8" className="btn btn-primary">Buy Now</Link>
+                        <h5 className="card-title price">$8.00</h5>
+                        <Link to="/prod8" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
             </div>
-            <div className="row justify-content-center align-items-center mt-5">
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+            <div className="row justify-content-center align-items-center w-100">
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product09} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">$20.00</h5>
-                        <Link to="/prod9" className="btn btn-primary">Buy Now</Link>
+                        <h5 className="card-title price">$20.00</h5>
+                        <Link to="/prod9" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product10} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">$8.00</h5>
-                        <Link to="/prod10" className="btn btn-primary">Buy Now</Link>
+                        <h5 className="card-title price">$8.00</h5>
+                        <Link to="/prod10" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product11} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">$30.00</h5>
-                        <Link to="/prod11" className="btn btn-primary">Buy Now</Link>
+                        <h5 className="card-title price">$30.00</h5>
+                        <Link to="/prod11" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product12} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">$8.00</h5>
-                        <Link to="/prod12" className="btn btn-primary">Buy Now</Link>
+                        <h5 className="card-title price">$8.00</h5>
+                        <Link to="/prod12" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
             </div>
-            <div className="row justify-content-center align-items-center mt-5">
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+            <div className="row justify-content-center align-items-center w-100">
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product13} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">$30.00</h5>
-                        <Link to="/prod13" className="btn btn-primary">Buy Now</Link>
+                        <h5 className="card-title price">$30.00</h5>
+                        <Link to="/prod13" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product15} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">$22.00</h5>
-                        <Link to="/prod15" className="btn btn-primary">Buy Now</Link>
+                        <h5 className="card-title price">$22.00</h5>
+                        <Link to="/prod15" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product16} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">$7.00</h5>
-                        <Link to="/prod16" className="btn btn-primary">Buy Now</Link>
+                        <h5 className="card-title price">$7.00</h5>
+                        <Link to="/prod16" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product17} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">$7.00</h5>
-                        <Link to="/prod17" className="btn btn-primary">Buy Now</Link>
+                        <h5 className="card-title price">$7.00</h5>
+                        <Link to="/prod17" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
             </div>
-            <div className="row justify-content-center align-items-center mt-5">
-                <div className="card product-cardh-100 text-center p-4 col-md-2" >
+            <div className="row justify-content-center align-items-center w-100">
+                <div className="card product-cardh-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product18} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">$7.00</h5>
-                        <Link to="/prod18" className="btn btn-primary">Buy Now</Link>
+                        <h5 className="card-title price">$7.00</h5>
+                        <Link to="/prod18" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product19} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">$7.00</h5>
-                        <Link to="/prod19" className="btn btn-primary">Buy Now</Link>
+                        <h5 className="card-title price">$7.00</h5>
+                        <Link to="/prod19" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product20} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">$12.00</h5>
-                        <Link to="/prod20" className="btn btn-primary">Buy Now</Link>
+                        <h5 className="card-title price">$12.00</h5>
+                        <Link to="/prod20" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product21} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">$7.00</h5>
-                        <Link to="/prod21" className="btn btn-primary">Buy Now</Link>
+                        <h5 className="card-title price">$7.00</h5>
+                        <Link to="/prod21" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
             </div>
-            <div className="row justify-content-center align-items-center mt-5">
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+            <div className="row justify-content-center align-items-center w-100">
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product22} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$8.00</h5>
-                        <Link to="/prod22" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod22" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product23} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$11.00</h5>
-                        <Link to="/prod23" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod23" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product24} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$11.00</h5>
-                        <Link to="/prod24" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod24" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product25} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$19.00</h5>
-                        <Link to="/prod25"className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod25"className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
             </div>
-            <div className="row justify-content-center align-items-center mt-5">
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+            <div className="row justify-content-center align-items-center w-100">
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product26} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$12.00</h5>
-                        <Link to="/prod26" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod26" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product27} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$10.00</h5>
-                        <Link to="/prod27" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod27" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                    <img src={product28} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$14.00</h5>
-                        <Link to="/prod28" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod28" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product29} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$13.00</h5>
-                        <Link to="/prod29" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod29" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
             </div>
-            <div className="row justify-content-center align-items-center mt-5">
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+            <div className="row justify-content-center align-items-center w-100">
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product30} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$14.00</h5>
-                        <Link to="/prod30" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod30" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product31} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$15.00</h5>
-                        <Link to="/prod31" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod31" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product32} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$8.00</h5>
-                        <Link to="/prod32" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod32" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product33} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$6.00</h5>
-                        <Link to="/prod33" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod33" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
             </div>
-            <div className="row justify-content-center align-items-center mt-5">
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+            <div className="row justify-content-center align-items-center w-100">
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product34} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$11.00</h5>
-                        <Link to="/prod34" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod34" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product35} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$11.00</h5>
-                        <Link to="/prod35" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod35" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product36} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$7.00</h5>
-                        <Link to="/prod36" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod36" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product38} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$15.00</h5>
-                        <Link to="/prod38" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod38" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
             </div>
-            <div className="row justify-content-center align-items-center mt-5">
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+            <div className="row justify-content-center align-items-center w-100">
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product39} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$9.00</h5>
-                        <Link to="/prod39" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod39" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product40} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$10.00</h5>
-                        <Link to="/prod40" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod40" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product41} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$6.00</h5>
-                        <Link to="/prod41" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod41" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product42} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$6.00</h5>
-                        <Link to="/prod42" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod42" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
             </div>
-            <div className="row justify-content-center align-items-center mt-5">
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+            <div className="row justify-content-center align-items-center w-100">
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product43} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$12.00</h5>
-                        <Link to="/prod43" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod43" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product44} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$21.00</h5>
-                        <Link to="/prod44" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod44" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={Product45} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$15.00</h5>
-                        <Link to="/prod45" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod45" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={Product46} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$10.00-20.00</h5>
-                        <Link to="/prod46" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod46" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
             </div>
-            <div className="row justify-content-center align-items-center mt-5">
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+            <div className="row justify-content-center align-items-center w-100 ">
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={Product47} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$15.00</h5>
-                        <Link to="/prod47" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod47" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={Product48} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$8.00-20.00</h5>
-                        <Link to="/prod48" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod48" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-2" >
+                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={Product49} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$15.00</h5>
-                        <Link to="/prod49" className="btn btn-primary">Buy Now</Link>
+                        <Link to="/prod49" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
             </div>

@@ -19,9 +19,9 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div class="card mx-auto border-0" style={{width: '60%', backgroundColor: 'rgb(147,147,268'}}>
+            <div class="card mx-auto border-0" style={{width: '90%', backgroundColor: 'rgb(147,147,268'}}>
                 <div class="card-body text-center">
-                    <p class="card-text fs-4 bg-secondary text-white rounded shadow-lg px-5 py-3">Hi guys,<br></br> 
+                    <p class="card-text fs-5 bg-secondary text-white rounded shadow-lg px-2 py-2 w-100">Hi guys,<br></br> 
 I hope you have fun visiting our online store, we create beautiful uniquely crafted accessories along with offering a variety of cruelty free self care products.
 All of our accessories are handcrafted with unique, beautiful stones which create a uniquely crafted peice. 
 Here at Katiuska Beads you will find a lovely inventory at an affordable price. 

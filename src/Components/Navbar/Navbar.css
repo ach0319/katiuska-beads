@@ -1,6 +1,9 @@
 body {
   background-color: gray;
 }
+.navbar {
+  width: 100%;
+}
 
 .navbar-brand {
     font-family: 'Amatic SC', cursive;
@@ -16,7 +19,7 @@ body {
     font-family: 'Dancing Script', cursive;
   }
 .product-page {
-  padding-top: 5rem;
+  padding-top: 4rem;
   
 }
 .container {
@@ -45,7 +48,21 @@ body {
   .house {
     display: block;
     position: absolute;
-    left: 95%;
-    top: 2%;
+    right:0;
     
+  }
+
+  @media only screen and (max-width: 768px) {
+  
+
+  .container {
+    width: 75%;
+  }
+
+  }
+  
+  @media only screen and (max-width: 40em) {
+ .card-body p {
+   font-size: 1rem;
+ }
   }
