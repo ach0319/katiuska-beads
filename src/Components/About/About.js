@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutImage from "../Images/aboutImage.jpg";
+import letterhead from "../Images/letterhead.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faInstagram} from  "@fortawesome/free-brands-svg-icons"
 
@@ -10,7 +10,7 @@ function About() {
             <div class="card mb-3 mx-auto border-0" style={{maxWidth: '60%', backgroundColor: 'rgb(147,147,268'}}>
                 <div class="row g-0 justify-content-center align-items-center">
                     <div class="col-md-4">
-                        <img src={aboutImage} class="img-fluid rounded start rounded shadow-lg" alt="Jewelery on wicker circular background"></img>
+                        <img src={letterhead} class="img-fluid rounded start rounded shadow-lg" alt="Jewelery on wicker circular background"></img>
                     </div>
                     <div class="col-md-8 text-center" >
                         <div class="card-body">
