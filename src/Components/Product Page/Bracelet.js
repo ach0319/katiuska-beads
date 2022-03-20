@@ -2,7 +2,6 @@ import React from 'react';
 import banner from "../Images/banner.jpg";
 import "../Navbar/Navbar.css"
 import product01 from "../Images/product01.jpg";
-import product02 from "../Images/product02.jpg";
 import product03 from "../Images/product03.jpg";
 import product04 from "../Images/product04.jpg";
 import product05 from "../Images/product05.jpg";
@@ -13,8 +12,6 @@ import product09 from "../Images/product09.jpg";
 import product10 from "../Images/product10.jpg";
 import product11 from "../Images/product11.jpg";
 import product12 from "../Images/product12.jpg";
-import product13 from "../Images/product13.jpg";
-import product15 from "../Images/product15.jpg";
 import product16 from "../Images/product16.jpg";
 import product17 from "../Images/product17.jpg";
 import product18 from "../Images/product18.jpg";
@@ -29,29 +26,22 @@ import product26 from "../Images/product26.jpg";
 import product27 from "../Images/product27.jpg";
 import product28 from "../Images/product28.jpg";
 import product29 from "../Images/product29.jpg";
-import product30 from "../Images/product30.jpg";
-import product31 from "../Images/product31.jpg";
 import product32 from "../Images/product32.jpg";
 import product33 from "../Images/product33.jpg";
 import product34 from "../Images/product34.jpg";
 import product35 from "../Images/product35.jpg";
 import product36 from "../Images/product36.jpg";
-import product38 from "../Images/product38.jpg";
 import product39 from "../Images/product39.jpg";
 import product40 from "../Images/product40.jpg";
 import product41 from "../Images/product41.jpg";
 import product42 from "../Images/product42.jpg";
-import product43 from "../Images/product43.jpg";
-import product44 from "../Images/product44.jpg";
 import Product45 from "../Images/Product45.jpg";
-import Product46 from "../Images/Product46.jpg";
 import Product47 from "../Images/Product47.jpg";
-import Product48 from "../Images/Product48.jpg";
 import Product49 from "../Images/Product49.jpg";
 import { Link } from "react-router-dom";
 
 
-function Home () {
+function Bracelet () {
     return (
         <div style={{backgroundColor: 'rgb(147,147,268)'}}>
             <div class="card bg-dark text-white border-0 w-100">
@@ -62,8 +52,8 @@ function Home () {
             </div>
             <div className="container" style={{backgroundColor: 'rgb(147,147,268)'}}>
             <div className="filter-buttons row justify-content-center mt-5">
-                <Link to="/" className="btn btn-secondary col-4 filter" >All</Link>
-                <Link to="/bracelet" className="btn btn-outline-secondary col-4 filter" >Bracelet</Link>
+                <Link to="/" className="btn btn-outline-secondary col-4 filter" >All</Link>
+                <Link to="/bracelet" className="btn btn-secondary col-4 filter" >Bracelet</Link>
                 <Link to="/earring" className="btn btn-outline-secondary col-4 filter" >Earring</Link>
                 <Link to="/waistbeads" className="btn btn-outline-secondary col-4 filter" >Waistbeads</Link>
                 <Link to="/men" className="btn btn-outline-secondary col-4 filter" >Men</Link>
@@ -80,13 +70,6 @@ function Home () {
                     </div>
                 </div>
                 <div className="card product-card  h-100 text-center p-4 col-sm-4 mb-5" >
-                    <img src={product02} className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <h5 className="card-title price">$14.00</h5>
-                        <Link to="/prod2" href="#" className="btn btn-primary buy-button">Buy Now</Link>
-                    </div>
-                </div>
-                <div className="card product-card  h-100 text-center p-4 col-sm-4 mb-5" >
                     <img src={product03} clasName="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$9.00</h5>
@@ -100,8 +83,7 @@ function Home () {
                         <Link to="/prod4" href="#" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-            </div>
-            <div className="row justify-content-center align-items-center w-100 ">
+            
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product05} className="card-img-top" alt="..."/>
                     <div className="card-body">
@@ -109,6 +91,8 @@ function Home () {
                         <Link to="/prod5" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
+            </div>
+            <div className="row justify-content-center align-items-center w-100 ">
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product06} className="card-img-top" alt="..."/>
                     <div className="card-body">
@@ -130,8 +114,6 @@ function Home () {
                         <Link to="/prod8" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-            </div>
-            <div className="row justify-content-center align-items-center w-100">
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product09} className="card-img-top" alt="..."/>
                     <div className="card-body">
@@ -139,6 +121,8 @@ function Home () {
                         <Link to="/prod9" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
+            </div>
+            <div className="row justify-content-center align-items-center w-100 ">
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product10} className="card-img-top" alt="..."/>
                     <div className="card-body">
@@ -160,22 +144,6 @@ function Home () {
                         <Link to="/prod12" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-            </div>
-            <div className="row justify-content-center align-items-center w-100">
-                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
-                    <img src={product13} className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <h5 className="card-title price">$30.00</h5>
-                        <Link to="/prod13" className="btn btn-primary buy-button">Buy Now</Link>
-                    </div>
-                </div>
-                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
-                    <img src={product15} className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <h5 className="card-title price">$22.00</h5>
-                        <Link to="/prod15" className="btn btn-primary buy-button">Buy Now</Link>
-                    </div>
-                </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product16} className="card-img-top" alt="..."/>
                     <div className="card-body">
@@ -183,6 +151,8 @@ function Home () {
                         <Link to="/prod16" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
+            </div>
+            <div className="row justify-content-center align-items-center w-100 ">
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product17} className="card-img-top" alt="..."/>
                     <div className="card-body">
@@ -190,8 +160,6 @@ function Home () {
                         <Link to="/prod17" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-            </div>
-            <div className="row justify-content-center align-items-center w-100">
                 <div className="card product-cardh-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product18} className="card-img-top" alt="..."/>
                     <div className="card-body">
@@ -213,6 +181,8 @@ function Home () {
                         <Link to="/prod20" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
+            </div>
+            <div className="row justify-content-center align-items-center w-100 ">
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product21} className="card-img-top" alt="..."/>
                     <div className="card-body">
@@ -220,8 +190,6 @@ function Home () {
                         <Link to="/prod21" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-            </div>
-            <div className="row justify-content-center align-items-center w-100">
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product22} className="card-img-top" alt="..."/>
                     <div className="card-body">
@@ -243,6 +211,8 @@ function Home () {
                         <Link to="/prod24" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
+            </div>
+            <div className="row justify-content-center align-items-center w-100 ">
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product25} className="card-img-top" alt="..."/>
                     <div className="card-body">
@@ -250,8 +220,6 @@ function Home () {
                         <Link to="/prod25"className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-            </div>
-            <div className="row justify-content-center align-items-center w-100">
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product26} className="card-img-top" alt="..."/>
                     <div className="card-body">
@@ -273,27 +241,13 @@ function Home () {
                         <Link to="/prod28" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
+            </div>
+            <div className="row justify-content-center align-items-center w-100 ">
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product29} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$13.00</h5>
                         <Link to="/prod29" className="btn btn-primary buy-button">Buy Now</Link>
-                    </div>
-                </div>
-            </div>
-            <div className="row justify-content-center align-items-center w-100">
-                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
-                    <img src={product30} className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <h5 className="card-title">$14.00</h5>
-                        <Link to="/prod30" className="btn btn-primary buy-button">Buy Now</Link>
-                    </div>
-                </div>
-                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
-                    <img src={product31} className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <h5 className="card-title">$15.00</h5>
-                        <Link to="/prod31" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
@@ -310,8 +264,6 @@ function Home () {
                         <Link to="/prod33" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-            </div>
-            <div className="row justify-content-center align-items-center w-100">
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product34} className="card-img-top" alt="..."/>
                     <div className="card-body">
@@ -319,6 +271,8 @@ function Home () {
                         <Link to="/prod34" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
+            </div>
+            <div className="row justify-content-center align-items-center w-100 ">
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product35} className="card-img-top" alt="..."/>
                     <div className="card-body">
@@ -334,15 +288,6 @@ function Home () {
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
-                    <img src={product38} className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <h5 className="card-title">$15.00</h5>
-                        <Link to="/prod38" className="btn btn-primary buy-button">Buy Now</Link>
-                    </div>
-                </div>
-            </div>
-            <div className="row justify-content-center align-items-center w-100">
-                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product39} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$9.00</h5>
@@ -356,6 +301,8 @@ function Home () {
                         <Link to="/prod40" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
+            </div>
+            <div className="row justify-content-center align-items-center w-100 ">
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product41} className="card-img-top" alt="..."/>
                     <div className="card-body">
@@ -370,22 +317,6 @@ function Home () {
                         <Link to="/prod42" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-            </div>
-            <div className="row justify-content-center align-items-center w-100">
-                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
-                    <img src={product43} className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <h5 className="card-title">$12.00</h5>
-                        <Link to="/prod43" className="btn btn-primary buy-button">Buy Now</Link>
-                    </div>
-                </div>
-                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
-                    <img src={product44} className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <h5 className="card-title">$21.00</h5>
-                        <Link to="/prod44" className="btn btn-primary buy-button">Buy Now</Link>
-                    </div>
-                </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={Product45} className="card-img-top" alt="..."/>
                     <div className="card-body">
@@ -394,28 +325,14 @@ function Home () {
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
-                    <img src={Product46} className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <h5 className="card-title">$10.00-20.00</h5>
-                        <Link to="/prod46" className="btn btn-primary buy-button">Buy Now</Link>
-                    </div>
-                </div>
-            </div>
-            <div className="row justify-content-center align-items-center w-100 ">
-                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={Product47} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$15.00</h5>
                         <Link to="/prod47" className="btn btn-primary buy-button">Buy Now</Link>
                     </div>
                 </div>
-                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
-                    <img src={Product48} className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <h5 className="card-title">$8.00-20.00</h5>
-                        <Link to="/prod48" className="btn btn-primary buy-button">Buy Now</Link>
-                    </div>
-                </div>
+            </div>
+            <div className="row justify-content-center align-items-center w-100 ">
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={Product49} className="card-img-top" alt="..."/>
                     <div className="card-body">
@@ -431,4 +348,4 @@ function Home () {
     )
 }
 
-export default Home;
+export default Bracelet;
