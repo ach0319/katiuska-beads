@@ -7,7 +7,7 @@ import {faHouse} from  "@fortawesome/free-solid-svg-icons"
 
 function Product01() {
     return(
-    <div style={{backgroundColor: "gray", height: '90vh'}}>
+    <div style={{backgroundColor: "gray", height: '125vh'}}>
         <div className="card prod-card mx-auto" style={{maxWidth: '75%',
             height: 'auto', backgroundColor: 'rgb(147,147,268)'}}>
         <div className="back-forward-button">
