@@ -43,8 +43,13 @@ body {
   table {
     margin-right: auto;
     margin-left: auto;
+    
   }
 
+  select {
+    width: 75%;
+  }
+ 
   .house {
     display: block;
     position: absolute;
@@ -60,7 +65,9 @@ body {
 
   @media only screen and (max-width: 768px) {
   
-
+.table-option {
+  width: 75%;
+}
   .container {
     width: 75%;
   }
@@ -68,6 +75,9 @@ body {
   }
   
   @media only screen and (max-width: 40em) {
+  .table-option {
+    width: 50%;
+  }
  .card-body p {
    font-size: 1rem;
  }
