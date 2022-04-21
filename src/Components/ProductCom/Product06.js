@@ -21,12 +21,9 @@ function Product06() {
                     <h5 className="card-title fs-4 text-center">Waistbead and Bracelet Combo</h5>
                     <h5 className="card-price fs-4 text-center">$23.00</h5>
                 </div>
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <input type="hidden" name="cmd" value="_s-xclick"/>
-                    <input type="hidden" name="hosted_button_id" value="CGMHQTE5E4ALE"/>
-                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
-                </form>
+                <div className="email-button">
+                   <a className="btn btn-primary buy-button" href="https://buy.stripe.com/00g3cz591grQ8Ny7sy">Purchase Now</a>
+                </div>
 
 
             </div>

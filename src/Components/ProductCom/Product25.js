@@ -22,12 +22,9 @@ function Product26() {
                     <p className="card-text fs-5 text-center">Description: 6MM YELLOW, PURPLE AND BLUE CRYSTAL BEADS AND 4MM BEADS WITH SILVER EVIL EYE CHARM</p>
                     <h5 className="card-price fs-4 text-center">$12.00</h5>
                 </div>
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <input type="hidden" name="cmd" value="_s-xclick"/>
-                    <input type="hidden" name="hosted_button_id" value="JPME7GWSZS4SA"/>
-                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
-                </form>
+                <div className="email-button">
+                   <a className="btn btn-primary buy-button" href="https://buy.stripe.com/4gwbJ51WP0sSe7S00p">Purchase Now</a>
+                </div>
 
 
             </div>

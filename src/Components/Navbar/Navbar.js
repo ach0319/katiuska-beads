@@ -10,7 +10,7 @@ function Navbar() {
             <div class="container-fluid">
                 <Link to="/" class="navbar-brand text-white fs-2" href="#">
                 <img src={logo} alt="" width="65" height="64" class="d-inline-block align-text-center px-1"/>
-                Katiuska Beads
+                KB & Tees
                 </Link>
               <div class="display-flex justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">

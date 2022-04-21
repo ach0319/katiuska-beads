@@ -14,7 +14,7 @@ function About() {
                     </div>
                     <div class="col-md-8 text-center" >
                         <div class="card-body">
-                            <h5 class="card-title text-center fs-1 fw-bolder pb-5">Discover<br></br>Katiuska Beads</h5>
+                            <h5 class="card-title text-center fs-1 fw-bolder pb-5">Discover<br></br>KB & Tees</h5>
                         </div>
                     </div>
                 </div>
@@ -24,13 +24,13 @@ function About() {
                     <p class="card-text fs-5 bg-secondary text-white rounded shadow-lg px-2 py-2 w-100">Hi guys,<br></br> 
 I hope you have fun visiting our online store, we create beautiful uniquely crafted accessories along with offering a variety of cruelty free self care products.
 All of our accessories are handcrafted with unique, beautiful stones which create a uniquely crafted peice. 
-Here at Katiuska Beads you will find a lovely inventory at an affordable price. 
+Here at KB & Tees you will find a lovely inventory at an affordable price. 
 Our goal is for you to find a jewelry piece that feels more then just an accessory. 
 A piece that defines you , inspires you , a piece that will simply be an expression of “You”. 
 Like our accessories , our self care products are all natural based products. 
 Enjoy and hope to hear from you soon.<br></br>
 
-- Owner of Katiuska Beads</p>
+- Owner of KB & Tees</p>
                     <h5 class="card-title fs-1">Check me out on Instagram</h5>
                     <a href="https://instagram.com/katiuskabeads?utm_medium=copy_link" class="card-link fs-1 text-primary"><FontAwesomeIcon icon={faInstagram} /></a>
                     

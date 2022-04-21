@@ -21,21 +21,11 @@ function product48() {
                     <h5 className="card-title fs-4 text-center">MULTI Set of Head Beads and Bracelet</h5>
                     <p className="card-text fs-5 text-center">Description: SET OF HEAD BEADS AND BRACELET</p>
                     <p className="card-text fs-5 text-center"><small class="text-black">Size: 22 INCHES AND 8 INCHES</small></p>
-                    <h5 className="card-price fs-4 text-center">$8.00-20.00</h5>
+                    <h5 className="card-price fs-4 text-center">20.00</h5>
                 </div>
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <input type="hidden" name="cmd" value="_s-xclick"/>
-                    <input type="hidden" name="hosted_button_id" value="B6F7U6BCKPJXU"/>
-                    <table>
-                        <tr><td><input type="hidden" name="on0" value="Options"/>Options</td></tr><tr><td><select name="os0">
-	                        <option value="Bracelet">Bracelet $8.00 USD</option>
-	                        <option value="Head Beads and Bracelet">Head Beads and Bracelet $20.00 USD</option>
-                        </select> </td></tr>
-                    </table>
-                    <input type="hidden" name="currency_code" value="USD"/>
-                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
-                </form>
+                <div className="email-button">
+                   <a className="btn btn-primary buy-button" href="https://buy.stripe.com/3cs14rcBtfnM6Fq14O">Purchase Now</a>
+                </div>
 
 
             </div>
