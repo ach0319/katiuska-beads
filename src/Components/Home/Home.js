@@ -165,7 +165,7 @@ function Home () {
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product13} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title price">$30.00</h5>
+                        <h5 className="card-title price">$25.00</h5>
                         <a className="btn btn-primary buy-button" href="https://buy.stripe.com/00geVh9ph4J84xi9AN">Purchase Now</a>
                     </div>
                 </div>
@@ -247,7 +247,7 @@ function Home () {
                     <img src={product25} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$19.00</h5>
-                        <Link to="/prod25"className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/8wMcN944X5NcaVG8wU">Purchase Now</a>
                     </div>
                 </div>
             </div>
@@ -256,28 +256,28 @@ function Home () {
                     <img src={product26} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$12.00</h5>
-                        <Link to="/prod26" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/4gwbJ51WP0sSe7S00p">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product27} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$10.00</h5>
-                        <Link to="/prod27" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/5kAeVhfNFdfE5Bm8wW">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                    <img src={product28} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$14.00</h5>
-                        <Link to="/prod28" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/eVadRd8lddfE4xi6oP">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product29} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$13.00</h5>
-                        <Link to="/prod29" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/aEUeVh30T8ZoaVG00s">Purchase Now</a>
                     </div>
                 </div>
             </div>
@@ -286,28 +286,28 @@ function Home () {
                     <img src={product30} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$14.00</h5>
-                        <Link to="/prod30" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/aEU3czcBtgrQ5Bm28B">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product31} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$15.00</h5>
-                        <Link to="/prod31" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/cN2eVhdFx4J8e7S14y">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product32} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$8.00</h5>
-                        <Link to="/prod32" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/aEU4gD7h92B04xi28D">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product33} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$6.00</h5>
-                        <Link to="/prod33" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/3cs5kHfNF2B09RCdRm">Purchase Now</a>
                     </div>
                 </div>
             </div>
@@ -316,28 +316,28 @@ function Home () {
                     <img src={product34} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$11.00</h5>
-                        <Link to="/prod34" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/28oeVhatla3se7S5kR">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product35} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$11.00</h5>
-                        <Link to="/prod35" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/aEU3cz6d51wW9RC4gO">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product36} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$7.00</h5>
-                        <Link to="/prod36" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/00gaF18ldcbA4xi4gP">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product38} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$15.00</h5>
-                        <Link to="/prod38" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/9AQ8wT1WP3F47JubJi">Purchase Now</a>
                     </div>
                 </div>
             </div>
@@ -346,28 +346,28 @@ function Home () {
                     <img src={product39} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$9.00</h5>
-                        <Link to="/prod39" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/4gw6oL0SLgrQ1l6bJj">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product40} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$10.00</h5>
-                        <Link to="/prod40" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/bIY28vcBtfnM9RC28K">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product41} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$6.00</h5>
-                        <Link to="/prod41" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/7sI8wT1WPfnM2pa9Bd">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product42} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$6.00</h5>
-                        <Link to="/prod42" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/00g9AX7h9dfE6Fq8xa">Purchase Now</a>
                     </div>
                 </div>
             </div>
@@ -376,28 +376,28 @@ function Home () {
                     <img src={product43} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$12.00</h5>
-                        <Link to="/prod43" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/6oE28vfNFfnM9RCfZD">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product44} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$21.00</h5>
-                        <Link to="/prod44" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/fZecN9fNF4J87Ju4gW">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={Product45} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$15.00</h5>
-                        <Link to="/prod45" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/14kdRd591dfE3tebJp">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={Product46} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">$10.00-20.00</h5>
-                        <Link to="/prod46" className="btn btn-primary buy-button">Buy Now</Link>
+                        <h5 className="card-title">$20.00</h5>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/14kdRd44X7VkaVG8xe">Purchase Now</a>
                     </div>
                 </div>
             </div>
@@ -406,21 +406,21 @@ function Home () {
                     <img src={Product47} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$15.00</h5>
-                        <Link to="/prod47" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/dR6cN98ld6Rg7Ju5l3">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={Product48} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">$8.00-20.00</h5>
-                        <Link to="/prod48" className="btn btn-primary buy-button">Buy Now</Link>
+                        <h5 className="card-title">20.00</h5>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/3cs14rcBtfnM6Fq14O">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={Product49} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$15.00</h5>
-                        <Link to="/prod49" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/00g00ncBtejIbZK3cX">Purchase Now</a>
                     </div>
                 </div>
             </div>
