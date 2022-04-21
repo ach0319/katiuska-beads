@@ -31,7 +31,7 @@ function Plus () {
                     <img src={product15} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$22.00</h5>
-                        <Link to="/prod15" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/14keVhbxp4J86FqbIW">Purchase Now</a>
                     </div>
                 </div>
             </div>

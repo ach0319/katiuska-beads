@@ -34,28 +34,28 @@ function Earring () {
                     <img src={product02} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$14.00</h5>
-                        <Link to="/prod2" href="#" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/5kAfZlatlcbAgg09AB">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product30} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$14.00</h5>
-                        <Link to="/prod30" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/aEU3czcBtgrQ5Bm28B">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product31} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$15.00</h5>
-                        <Link to="/prod31" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/cN2eVhdFx4J8e7S14y">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product43} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$12.00</h5>
-                        <Link to="/prod43" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/6oE28vfNFfnM9RCfZD">Purchase Now</a>
                     </div>
                 </div>
             </div>

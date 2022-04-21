@@ -31,7 +31,7 @@ function Kid () {
                     <img src={product19} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$7.00</h5>
-                        <Link to="/prod19" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/9AQaF144Xb7w3tecN4">Purchase Now</a>
                     </div>
                 </div>
             </div>

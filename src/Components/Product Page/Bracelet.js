@@ -62,33 +62,33 @@ function Bracelet () {
                 <Link to="/headbeads" className="btn btn-outline-secondary col-4 filter" >Headbeads</Link>
             </div>
             <div className="product-page row justify-content-center align-items-center no-gutters w-100">
+            <div className="row justify-content-center align-items-center w-100 ">
                 <div className="card product-card h-100 text-center p-4 col-sm-4 mb-5" >
                     <img src={product01} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price ">$9.00</h5>
-                        <Link to="/prod1" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/9AQbJ50SL1wWaVG28a">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card  h-100 text-center p-4 col-sm-4 mb-5" >
                     <img src={product03} clasName="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$9.00</h5>
-                        <Link to="/prod3" href="#" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/cN23cz30Ta3s2pa3cf">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card  h-100 text-center p-4 col-sm-4 mb-5" >
                     <img src={product04} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$9.00</h5>
-                        <Link to="/prod4" href="#" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/8wMfZl7h90sSe7SbIM">Purchase Now</a>
                     </div>
                 </div>
-            
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product05} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$12.00</h5>
-                        <Link to="/prod5" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/8wM28v6d5b7w4xi28d">Purchase Now</a>
                     </div>
                 </div>
             </div>
@@ -97,28 +97,28 @@ function Bracelet () {
                     <img src={product06} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$23.00</h5>
-                        <Link to="/prod6" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/00g3cz591grQ8Ny7sy">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product07} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$30.00</h5>
-                        <Link to="/prod7" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/3cs6oL30T7Vk2pa28f">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product08} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$8.00</h5>
-                        <Link to="/prod8" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/aEUcN96d58Zogg0cMU">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product09} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$20.00</h5>
-                        <Link to="/prod9" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/7sI9AX8ldb7wfbWdQZ">Purchase Now</a>
                     </div>
                 </div>
             </div>
@@ -127,28 +127,28 @@ function Bracelet () {
                     <img src={product10} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$8.00</h5>
-                        <Link to="/prod10" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/14k6oL0SL7VkaVG3cm">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product11} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$30.00</h5>
-                        <Link to="/prod11" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/cN27sPfNFcbA1l68wH">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product12} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$8.00</h5>
-                        <Link to="/prod12" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/7sI3cz9ph0sS1l66oA">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product16} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$7.00</h5>
-                        <Link to="/prod16" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/dR64gDeJBgrQe7SfZd">Purchase Now</a>
                     </div>
                 </div>
             </div>
@@ -157,28 +157,28 @@ function Bracelet () {
                     <img src={product17} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$7.00</h5>
-                        <Link to="/prod17" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/00geVhcBtcbAe7ScN2">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-cardh-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product18} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$7.00</h5>
-                        <Link to="/prod18" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/aEU00n7h9cbA9RCaEV">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product19} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$7.00</h5>
-                        <Link to="/prod19" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/9AQaF144Xb7w3tecN4">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product20} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$12.00</h5>
-                        <Link to="/prod20" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/6oE7sPatla3s5Bm00j">Purchase Now</a>
                     </div>
                 </div>
             </div>
@@ -187,28 +187,28 @@ function Bracelet () {
                     <img src={product21} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$7.00</h5>
-                        <Link to="/prod21" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/4gwaF1gRJ0sSbZK9AU">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product22} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$8.00</h5>
-                        <Link to="/prod22" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/7sI3cz7h93F4gg0bJ3">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product23} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$11.00</h5>
-                        <Link to="/prod23" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/eVa4gDgRJdfE4xi5kG">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product24} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$11.00</h5>
-                        <Link to="/prod24" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/cN200n0SL0sSbZK14r">Purchase Now</a>
                     </div>
                 </div>
             </div>
@@ -217,28 +217,28 @@ function Bracelet () {
                     <img src={product25} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$19.00</h5>
-                        <Link to="/prod25"className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/8wMcN944X5NcaVG8wU">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product26} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$12.00</h5>
-                        <Link to="/prod26" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/4gwbJ51WP0sSe7S00p">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product27} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$10.00</h5>
-                        <Link to="/prod27" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/5kAeVhfNFdfE5Bm8wW">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                    <img src={product28} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$14.00</h5>
-                        <Link to="/prod28" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/eVadRd8lddfE4xi6oP">Purchase Now</a>
                     </div>
                 </div>
             </div>
@@ -247,28 +247,28 @@ function Bracelet () {
                     <img src={product29} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$13.00</h5>
-                        <Link to="/prod29" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/aEUeVh30T8ZoaVG00s">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product32} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$8.00</h5>
-                        <Link to="/prod32" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/aEU4gD7h92B04xi28D">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product33} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$6.00</h5>
-                        <Link to="/prod33" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/3cs5kHfNF2B09RCdRm">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product34} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$11.00</h5>
-                        <Link to="/prod34" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/28oeVhatla3se7S5kR">Purchase Now</a>
                     </div>
                 </div>
             </div>
@@ -277,28 +277,28 @@ function Bracelet () {
                     <img src={product35} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$11.00</h5>
-                        <Link to="/prod35" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/aEU3cz6d51wW9RC4gO">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product36} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$7.00</h5>
-                        <Link to="/prod36" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/00gaF18ldcbA4xi4gP">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product39} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$9.00</h5>
-                        <Link to="/prod39" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/4gw6oL0SLgrQ1l6bJj">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product40} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$10.00</h5>
-                        <Link to="/prod40" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/bIY28vcBtfnM9RC28K">Purchase Now</a>
                     </div>
                 </div>
             </div>
@@ -307,28 +307,28 @@ function Bracelet () {
                     <img src={product41} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$6.00</h5>
-                        <Link to="/prod41" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/7sI8wT1WPfnM2pa9Bd">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product42} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$6.00</h5>
-                        <Link to="/prod42" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/00g9AX7h9dfE6Fq8xa">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={Product45} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$15.00</h5>
-                        <Link to="/prod45" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/14kdRd591dfE3tebJp">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={Product47} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$15.00</h5>
-                        <Link to="/prod47" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/dR6cN98ld6Rg7Ju5l3">Purchase Now</a>
                     </div>
                 </div>
             </div>
@@ -337,9 +337,10 @@ function Bracelet () {
                     <img src={Product49} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$15.00</h5>
-                        <Link to="/prod49" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/00g00ncBtejIbZK3cX">Purchase Now</a>
                     </div>
                 </div>
+            </div>
             </div>
             </div>
         </div>

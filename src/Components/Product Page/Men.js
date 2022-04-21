@@ -29,25 +29,25 @@ function Men () {
                 <Link to="/headbeads" className="btn btn-outline-secondary col-4 filter" >Headbeads</Link>
             </div>
             <div className="product-page row justify-content-center align-items-center no-gutters w-100">
-                <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
+            <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product16} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$7.00</h5>
-                        <Link to="/prod16" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/dR64gDeJBgrQe7SfZd">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product17} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$7.00</h5>
-                        <Link to="/prod17" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/00geVhcBtcbAe7ScN2">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-cardh-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product18} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$7.00</h5>
-                        <Link to="/prod18" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/aEU00n7h9cbA9RCaEV">Purchase Now</a>
                     </div>
                 </div>
                 

@@ -36,28 +36,28 @@ function Waistbeads () {
                     <img src={product06} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$23.00</h5>
-                        <Link to="/prod6" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/00g3cz591grQ8Ny7sy">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product07} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$30.00</h5>
-                        <Link to="/prod7" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/3cs6oL30T7Vk2pa28f">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product09} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$20.00</h5>
-                        <Link to="/prod9" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/7sI9AX8ldb7wfbWdQZ">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product11} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$30.00</h5>
-                        <Link to="/prod11" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/cN27sPfNFcbA1l68wH">Purchase Now</a>
                     </div>
                 </div>
             </div>
@@ -65,22 +65,22 @@ function Waistbeads () {
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product13} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title price">$30.00</h5>
-                        <Link to="/prod13" className="btn btn-primary buy-button">Buy Now</Link>
+                        <h5 className="card-title price">$25.00</h5>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/00geVh9ph4J84xi9AN">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product15} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title price">$22.00</h5>
-                        <Link to="/prod15" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/14keVhbxp4J86FqbIW">Purchase Now</a>
                     </div>
                 </div>
                 <div className="card product-card h-100 text-center p-4 col-md-4 mb-5" >
                     <img src={product38} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">$15.00</h5>
-                        <Link to="/prod38" className="btn btn-primary buy-button">Buy Now</Link>
+                        <a className="btn btn-primary buy-button" href="https://buy.stripe.com/9AQ8wT1WP3F47JubJi">Purchase Now</a>
                     </div>
                 </div>
             </div>
